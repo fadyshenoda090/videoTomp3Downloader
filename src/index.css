@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'poppins', sans-serif;
+    color: white;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  }
+  
+  .app{
+    width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  
+  .logoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  img{
+    width: 4vw;
+    height: 6vh;
+    margin-right: 0.5rem;
+    margin-top : 1rem;
+  }
+  
+  .logo{
+    font-family: 'Oregano', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17rem;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .content{
+      margin-top: 12rem;
+    }
+
+    .contentTitle{
+      font-size: 1.5rem;
+    }
+    
+  }
+
+  .contentTitle{
+    letter-spacing: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .contentDescription{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .form .formInput{
+    margin: 1rem 0.05rem;
+    max-width: 70vw;
+    min-width: 25vw;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-indent: 0.5em;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form .formInput:focus {
+    border: 0.01px solid #00eeff;
+    box-shadow: 0px 0px 15px 5px rgb(107, 223, 252);
+  }
+
+  .formButton{
+    margin: 1rem 0;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #00eeff;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 550;
+    cursor: pointer;
+  }
+
+  .formButton:hover{
+    box-shadow: 0px 0px 15px 5px rgb(107, 223, 252);
+  }
+
+  .downloadBtn{
+    margin: 2rem 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 550;
+    cursor: pointer;
+  }
